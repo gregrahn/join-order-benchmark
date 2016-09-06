@@ -19,6 +19,7 @@ found at [http://www.imdb.com/interfaces](http://www.imdb.com/interfaces)
   ```sh
   wget ftp://ftp.fu-berlin.de/pub/misc/movies/database/*gz
   ```
+  
 2. download and unpack `imdbpy` and the `imdbpy2sql.py` script
 
   ```sh
@@ -40,6 +41,7 @@ found at [http://www.imdb.com/interfaces](http://www.imdb.com/interfaces)
 Now you should have a PostgreSQL database named `imdbload` with the
 imdb data. Note that this database has some secondary indexes (but not
 on all foreign key attributes). You can export all tables to CSV:
+
 ```sql
 \copy aka_name to 'PATH/aka_name.csv' csv
 \copy aka_title to 'PATH/aka_title.csv' csv
@@ -63,6 +65,7 @@ on all foreign key attributes). You can export all tables to CSV:
 \copy role_type to 'PATH/role_type.csv' csv
 \copy title to 'PATH/title.csv' csv
 ```
+
 To import the CSV files to another database, create all tables (see
 `schema.sql` and optionally `fkindexes.sql`) and run the same copy as
 above statements but replace the keyword "to" by "from".
