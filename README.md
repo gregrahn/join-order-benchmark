@@ -16,18 +16,26 @@ found at [http://www.imdb.com/interfaces](http://www.imdb.com/interfaces)
 ### Step-by-step instructions
 1. download `*gz` files (unpacking not necessary)
 
-  `wget ftp://ftp.fu-berlin.de/pub/misc/movies/database/*gz`
+  ```sh
+  wget ftp://ftp.fu-berlin.de/pub/misc/movies/database/*gz
+  ```
 2. download and unpack `imdbpy` and the `imdbpy2sql.py` script
 
-  `wget https://bitbucket.org/alberanid/imdbpy/get/5.0.zip`
+  ```sh
+  wget https://bitbucket.org/alberanid/imdbpy/get/5.0.zip
+  ```
 
 3. create PostgreSQL database (e.g., name imdbload):
 
-  `createdb imdbload`
+  ```sh
+  createdb imdbload
+  ```
 
 4. transform `*gz` files to relational schema (takes a while)
 
-  `imdbpy2sql.py -d PATH_TO_GZ_FILES -u postgres://username:password@hostname/imdbload`
+  ```sh
+  imdbpy2sql.py -d PATH_TO_GZ_FILES -u postgres://username:password@hostname/imdbload
+  ```
 
 Now you should have a PostgreSQL database named `imdbload` with the
 imdb data. Note that this database has some secondary indexes (but not
