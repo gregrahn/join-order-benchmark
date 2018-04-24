@@ -17,7 +17,7 @@ found at [http://www.imdb.com/interfaces](http://www.imdb.com/interfaces)
 1. download `*gz` files (unpacking not necessary)
 
   ```sh
-  wget ftp://ftp.fu-berlin.de/pub/misc/movies/database/*gz
+  wget ftp://ftp.fu-berlin.de/pub/misc/movies/database/frozendata/*gz
   ```
   
 2. download and unpack `imdbpy` and the `imdbpy2sql.py` script
