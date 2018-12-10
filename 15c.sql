@@ -1,6 +1,6 @@
 SELECT MIN(mi.info) AS release_date,
        MIN(t.title) AS modern_american_internet_movie
-FROM aka_title AS AT,
+FROM aka_title AS at,
      company_name AS cn,
      company_type AS ct,
      info_type AS it1,
