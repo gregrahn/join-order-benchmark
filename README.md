@@ -35,7 +35,7 @@ found at [http://www.imdb.com/interfaces](http://www.imdb.com/interfaces)
 4. transform `*gz` files to relational schema (takes a while)
 
   ```sh
-  imdbpy2sql.py -d PATH_TO_GZ_FILES -u postgres://username:password@hostname/imdbload
+  imdbpy2sql.py -d PATH_TO_GZ_FILES -u postgresql://username:password@hostname/imdbload
   ```
 
 Now you should have a PostgreSQL database named `imdbload` with the
