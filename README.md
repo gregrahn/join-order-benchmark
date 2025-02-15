@@ -13,7 +13,7 @@ They queries might yield unexpected results when used on the "Frozen Data Set" g
 
 ### IMDB Data Set
 The CSV files used in the paper, which are from May 2013, can be found
-at [http://homepages.cwi.nl/~boncz/job/imdb.tgz](http://homepages.cwi.nl/~boncz/job/imdb.tgz)
+at [http://event.cwi.nl/da/job/imdb.tgz]()
 
 The license and links to the current version IMDB data set can be
 found at [http://www.imdb.com/interfaces](http://www.imdb.com/interfaces)
