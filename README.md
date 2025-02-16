@@ -13,10 +13,12 @@ They queries might yield unexpected results when used on the "Frozen Data Set" g
 
 ### IMDB Data Set
 The CSV files used in the paper, which are from May 2013, can be found
-at [http://event.cwi.nl/da/job/imdb.tgz]()
+at 
+[http://event.cwi.nl/da/job/imdb.tgz](http://event.cwi.nl/da/job/imdb.tgz)
 
 The license and links to the current version IMDB data set can be
-found at [http://www.imdb.com/interfaces](http://www.imdb.com/interfaces)
+found at 
+[http://www.imdb.com/interfaces](http://www.imdb.com/interfaces)
 
 ### Step-by-step instructions
 1. download `*gz` files (unpacking not necessary)
